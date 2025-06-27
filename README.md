@@ -42,7 +42,7 @@ Use XAMPP/WAMP
 Place the ecommerce folder in htdocs
 
 Visit: http://localhost/ecommerce
-```
+
 📂 Project Structure
 
 ecommerce/
