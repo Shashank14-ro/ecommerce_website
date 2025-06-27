@@ -42,3 +42,29 @@ Use XAMPP/WAMP
 Place the ecommerce folder in htdocs
 
 Visit: http://localhost/ecommerce
+
+📂 Project Structure
+
+ecommerce/
+├── admin/
+│   ├── add_product.php
+│   ├── dashboard.php
+│   ├── generate_hash.php       # Bcrypt password generator
+│   ├── login.php
+│   ├── logout.php
+│   └── manage_product.php
+├── css/
+│   └── styles.css
+├── images/
+├── includes/
+│   └── db.php                  # MySQL database connection
+├── pages/
+│   ├── cart.php
+│   ├── login.php
+│   ├── logout.php
+│   └── register.php
+├── index.php                   # Homepage
+├── test_db.php                 # Database test file
+├── README.md
+└── .gitignore
+
